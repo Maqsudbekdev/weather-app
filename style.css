@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHsX6xMfTOxKrGk-ZwXhBDTgjM0ApO5YsGXg&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.div{
+    width: 70%;
+    height: 600px;
+    border-radius: 50px;
+    backdrop-filter: blur(70px) brightness(70%);
+}
+
+#country{
+    padding-left: 200px;
+    padding-top: 110px;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#cityname , #temperature{
+    padding-left: 200px;
+    padding-top: 50px;
+    color: #fff;
+}
+
+.search_input{
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 22px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    background: #FFFFFF33;
+    text-indent: 20px;
+    color: #FFF;
+}
+
+.search_btn{
+    width: 70px;
+    height: 30px;
+    background-color: #FFFFFF33;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
